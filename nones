@@ -1,0 +1,28 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> git branch
+* Alan
+  main
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> git config user.name "Alan"
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> config user.email "178040397+xramcer@users.noreply.github.com"
+config : El término 'config' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta 
+es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ config user.email "178040397+xramcer@users.noreply.github.com"
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (config:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> git config user.email "178040397+xramcer@users.noreply.github.com"
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> git checkout -b AlanCerrito
+Switched to a new branch 'AlanCerrito'
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> git add .
+warning: in the working copy of '.idea/dataSources/data_sources_history.xml', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> git commit -m "rama"
+[AlanCerrito 56f2f92] rama
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> git push -u origin AlanCerrito
+remote: Permission to Ismael-Codes/pruebaseries.git denied to ve559555-lang.
+fatal: unable to access 'https://github.com/Ismael-Codes/pruebaseries.git/': The requested URL returned error: 403
+PS C:\Users\Alumno\PycharmProjects\pruebaseries> 
